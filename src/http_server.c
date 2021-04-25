@@ -78,7 +78,7 @@ function to process requests, decode URLs, serve files, etc. etc.
 
 #define HTTP_SERVER_SIG_STOP (OS_SIGNAL_NUM_0)
 
-#define FULLBUF_SIZE (4U * 1024U)
+#define FULLBUF_SIZE (8U * 1024U)
 
 #define HTTP_SERVER_ACCEPT_TIMEOUT_MS (1 * 1000)
 
